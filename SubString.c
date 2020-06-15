@@ -1,7 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 
-void substringBF(char *sub, char *text) {
+void substring(char *sub, char *text) {
     int m = strlen(sub);
     int n = strlen(text);
     int i, j;
@@ -15,6 +15,6 @@ void substringBF(char *sub, char *text) {
 }
 
 int main() {
-    substringBF("cha", "chachachacha");
+    substring("la", "lalallala");
      return 0;
 }
